@@ -1,0 +1,22 @@
+# General
+server:
+  servlet:
+    context-path: /api/v1
+# Spring Boot configuration
+spring:
+  application:
+    name: todo-app
+  # Database
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_todo_app
+    username: dam2
+    password: 1234
+  # JPA properties
+  jpa:
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
