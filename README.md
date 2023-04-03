@@ -20,6 +20,7 @@ documented with OpenAPI (Swagger), for the management of personal tasks.
 
 ### Reference Documentation
 
+With the app running:
 * [ToDo API Docs -> swagger-ui html](http://localhost:8080/api/v1/swagger-ui/index.html)
 * [ToDo API Docs -> json](http://localhost:8080/api/v1/v3/api-docs)
 * [ToDo API Docs -> download yaml](http://localhost:8080/api/v1/v3/api-docs.yaml)
